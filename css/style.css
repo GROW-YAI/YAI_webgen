@@ -229,3 +229,52 @@
         margin-top: 90px !important;
     }
 }
+
+
+@media (max-width: 768px) {
+  #contact .display-5 {
+    font-size: 1.75rem;
+  }
+
+  #contact .p-lg-5 {
+    padding: 2rem !important;
+  }
+
+  #contact .bg-primary {
+    text-align: center;
+  }
+
+  #contact .d-flex.align-items-start {
+    flex-direction: column;
+    align-items: center !important;
+    text-align: center;
+  }
+
+  #contact .d-flex.align-items-start .ps-3 {
+    padding-left: 0 !important;
+    margin-top: 10px;
+  }
+}
+
+
+
+.team-card {
+  background: #3cb043; /* FarmFresh green */
+  transition: all 0.3s ease;
+}
+
+.team-card:hover {
+  background: #2d8a34;
+  transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  #team h1 {
+    font-size: 1.8rem;
+  }
+
+  .team-card {
+    padding: 1.5rem;
+  }
+}
+
