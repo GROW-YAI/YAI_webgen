@@ -1,0 +1,31 @@
+{
+	"devDependencies": {
+		"browser-sync": "^3.0.4"
+	},
+	"name": "yai_webgen",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"directories": {
+		"lib": "lib"
+	},
+	"scripts": {
+		"dev": "browser-sync start --server --files '*/.html, */.css, */.js'",
+		"dev:serve": "serve ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/GROW-YAI/YAI_webgen.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"bugs": {
+		"url": "https://github.com/GROW-YAI/YAI_webgen/issues"
+	},
+	"homepage": "https://github.com/GROW-YAI/YAI_webgen#readme",
+	"dependencies": {
+		"next": "^16.2.0"
+	}
+}
